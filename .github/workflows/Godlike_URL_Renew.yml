@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       accounts:
-        description: '指定ID（留空运行全部）'
+        description: '992c0451'
         required: false
         default: ''
 
