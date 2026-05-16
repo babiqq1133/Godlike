@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       accounts:
-        description: 'bc653456'
+        description: 'https://panel.godlike.host/server/bc653456/renewal'
         required: false
         default: ''
 
