@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       accounts:
-        description: 'https://panel.godlike.host/server/bc653456/renewal'
+        description: '指定ID（留空运行全部）'
         required: false
         default: ''
 
