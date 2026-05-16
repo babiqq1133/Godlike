@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       accounts:
-        description: '992c0451'
+        description: 'bc653456'
         required: false
         default: ''
 
