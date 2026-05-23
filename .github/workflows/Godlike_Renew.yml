@@ -1,7 +1,11 @@
 name: Godlike 续期
 
 on:
+  # 手动触发（GitHub 网页点击按钮）
   workflow_dispatch:
+
+  # 哪吒面板 / curl 触发
+  repository_dispatch:
 
 jobs:
   add_time_job:
