@@ -1,10 +1,11 @@
 name: Godlike 续期
 
 on:
+  # 手动触发
   workflow_dispatch:
 
+  # 面板 / curl 触发
   repository_dispatch:
-    types: [trigger]
 
 jobs:
   add_time_job:
